@@ -1,0 +1,131 @@
+
+/* geral - inicio */
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-color: aqua;
+}
+/* geral - fim */
+
+/*header - inicio  */
+
+header{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+header img{
+    width: 100px;
+    position: fixed;
+    z-index: 100;
+    margin-top: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    color: #ffffff;
+    width: 960px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+    list-style-type: none;
+    position: fixed;
+    z-index: 99;
+}
+
+/* header - fim */
+/* main - inicio */
+
+main{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#loja{
+    display: flex;
+    background-color: #ffffff;
+    width: 960px;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 150px;
+}
+#produto-1{
+    background-image: url(../images/product-1.jpg);
+}
+#produto-2{
+    background-image: url(../images/product-2.jpg);
+}
+#produto-3{
+    background-image: url(../images/product-3.jpg);
+}
+#produto-4{
+    background-image: url(../images/product-2.jpg);
+}
+#produto-5{
+    background-image: url(../images/product-3.jpg);
+}
+#produto-6{
+    background-image: url(../images/product-1.jpg);
+}
+#produto-7{
+    background-image: url(../images/product-3.jpg);
+}
+#produto-8{
+    background-image: url(../images/product-1.jpg);
+}
+#produto-9{
+    background-image: url(../images/product-2.jpg);
+}
+.produtos{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.produtos li{
+    list-style-type: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-style: italic;
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+.produtos button{
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    padding: 5px 15px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+.produtos button:hover{
+    cursor: pointer;
+}
+.promo{
+    width: 50px;
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+.fundo-texto{
+    width: 300px;
+    height: 20px;
+    opacity: 0.5;
+    position: relative;
+    top: 50px;
+}
+
+/* main -  fim */
